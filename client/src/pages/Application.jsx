@@ -92,7 +92,7 @@ const Application = () => {
                     {job.companyId.name}
                     
                  </td >
-                 <td className='py-2 px-4 '>{job.jobIdtitle}</td>
+                 <td className='py-2 px-4 '>{job.jobId.title}</td>
                  <td  className='py-2 px-4  max-sm:hidden'>{job.jobId.location}</td>
                  <td className='py-2 px-4 ' >{moment(job.date).format('ll')}</td>
                  <td className='py-2 px-4 ' >
